@@ -1,12 +1,22 @@
 
 React Starter Pack
 ===================
+
+It is basic structured repo created to start new project by just cloning or downloading it.
+
 Includes: 
+-------------------
+
 React 16.6
+
 Redux (with store and redux thunk)
+
 Linting runtime
+
 Unit testing (Jest, Enzyme, Sinon)
+
 Folder Structured (with example files)
+
 
 How to Install
 ----------------------------------------------------------
