@@ -13,8 +13,10 @@
  *
  */
 const rewireEslint = require('./rewire-eslint');
-module.exports = (webpackConfig, env, { paths }) => {
-    // here you can extend your webpackConfig at will
-    webpackConfig = rewireEslint(webpackConfig)
-    return webpackConfig
-}
+
+module.exports = (webpackConfig) => {
+  // here you can extend your webpackConfig at will
+  let config = webpackConfig;
+  config = rewireEslint(config);
+  return config;
+};
