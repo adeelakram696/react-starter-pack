@@ -7,7 +7,7 @@ It is basic structured repo created to start new project by just cloning or down
 Includes: 
 -------------------
 
-React 16.6
+React 16.8
 
 Redux (with store and redux thunk)
 
